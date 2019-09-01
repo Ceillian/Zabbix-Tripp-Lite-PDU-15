@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2019-09-01T14:05:53Z</date>
+    <date>2019-09-01T14:29:40Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -111,7 +111,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.2.1.1.2.0</snmp_oid>
-                    <key>tlpAgentVersion.0</key>
+                    <key>tlpAgentVersion</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -170,7 +170,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.5.5.1.7.1.1</snmp_oid>
-                    <key>tlpAtsConfigLowVoltageTransfer.1.1</key>
+                    <key>tlpAtsConfigLowVoltageTransfer</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -236,7 +236,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.4.1.1.2</snmp_oid>
-                    <key>tlpAtsInputPhaseFrequency.1.1.2</key>
+                    <key>tlpAtsInputPhaseFrequency</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -302,7 +302,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.5.1.1.1</snmp_oid>
-                    <key>tlpAtsInputPhaseVoltage.1.1.1</key>
+                    <key>tlpAtsInputPhaseVoltage</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -368,7 +368,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.7.1.1.1</snmp_oid>
-                    <key>tlpAtsInputPhaseVoltageMax.1.1.1</key>
+                    <key>tlpAtsInputPhaseVoltageMax</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -434,7 +434,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.1.1.12.1</snmp_oid>
-                    <key>tlpAtsInputSourceAvailability.1</key>
+                    <key>tlpAtsInputSourceAvailability</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>0</trends>
@@ -493,7 +493,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.5.1.1</snmp_oid>
-                    <key>tlpAtsOutputCurrent.1.1</key>
+                    <key>tlpAtsOutputCurrent</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -559,7 +559,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.7.1.1</snmp_oid>
-                    <key>tlpAtsOutputCurrentMax.1.1</key>
+                    <key>tlpAtsOutputCurrentMax</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -625,7 +625,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.6.1.1</snmp_oid>
-                    <key>tlpAtsOutputCurrentMin.1.1</key>
+                    <key>tlpAtsOutputCurrentMin</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -691,7 +691,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.2.1.1.4.1</snmp_oid>
-                    <key>tlpDeviceIdentFirmwareVersion.1</key>
+                    <key>tlpDeviceIdentFirmwareVersion</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -750,7 +750,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.2.1.1.5.1</snmp_oid>
-                    <key>tlpDeviceIdentSerialNum.1</key>
+                    <key>tlpDeviceIdentSerialNum</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -809,7 +809,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.8.1</snmp_oid>
-                    <key>tlpDeviceLocation.1</key>
+                    <key>tlpDeviceLocation</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -868,7 +868,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.4.1</snmp_oid>
-                    <key>tlpDeviceManufacturer.1</key>
+                    <key>tlpDeviceManufacturer</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -927,7 +927,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.5.1</snmp_oid>
-                    <key>tlpDeviceModel.1</key>
+                    <key>tlpDeviceModel</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -986,7 +986,7 @@
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.6.1</snmp_oid>
-                    <key>tlpDeviceName.1</key>
+                    <key>tlpDeviceName</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -1074,6 +1074,68 @@
                     <lifetime>30d</lifetime>
                     <description/>
                     <item_prototypes>
+                        <item_prototype>
+                            <name>Outlet - Ramp data type of outlet $1</name>
+                            <type>4</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.11.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlAtsOutletRampDataType[{#SNMPVALUE}]</key>
+                            <delay>1d</delay>
+                            <history>{$HISTORY}</history>
+                            <trends>{$TRENDS}</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>The type of data associated with ramp action.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PDU_OUTLETS_RAMP_DELAY</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>UPS Outlet Ramp Data Type</name>
+                            </valuemap>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
                         <item_prototype>
                             <name>Outlet - Ndx group of outlet $1</name>
                             <type>4</type>
@@ -1319,6 +1381,68 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
+                            <name>Outlet - Shed action data type of outlet $1</name>
+                            <type>4</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.13.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletShedDataType[{#SNMPVALUE}]</key>
+                            <delay>1d</delay>
+                            <history>{$HISTORY}</history>
+                            <trends>{$TRENDS}</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>The type of data associated with shed action.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PDU_OUTLETS_SHED_DELAY</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>UPS Outlet Shed Data Type</name>
+                            </valuemap>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
                             <name>Outlet - State of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
@@ -1355,130 +1479,6 @@
                             </applications>
                             <valuemap>
                                 <name>UPS Outlet State</name>
-                            </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Outlet - Ramp data type of outlet $1</name>
-                            <type>4</type>
-                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.11.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlPDUOutletRampDataType[{#SNMPVALUE}]</key>
-                            <delay>1d</delay>
-                            <history>{$HISTORY}</history>
-                            <trends>{$TRENDS}</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description>The type of data associated with ramp action.</description>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>PDU_OUTLETS_RAMP_DELAY</name>
-                                </application>
-                            </applications>
-                            <valuemap>
-                                <name>UPS Outlet Ramp Data Type</name>
-                            </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Outlet - Shed action data type of outlet $1</name>
-                            <type>4</type>
-                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.13.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlPDUOutletShedDataType[{#SNMPVALUE}]</key>
-                            <delay>1d</delay>
-                            <history>{$HISTORY}</history>
-                            <trends>{$TRENDS}</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description>The type of data associated with shed action.</description>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>PDU_OUTLETS_SHED_DELAY</name>
-                                </application>
-                            </applications>
-                            <valuemap>
-                                <name>UPS Outlet Shed Data Type</name>
                             </valuemap>
                             <logtimefmt/>
                             <preprocessing/>
@@ -1565,7 +1565,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.1.1.last()}&gt;{$MAX_OUTPUTCURRENT_CRITICAL}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.last()}&gt;{$MAX_OUTPUTCURRENT_CRITICAL}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Current Output Reaching Limit</name>
@@ -1581,7 +1581,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.1.1.last()}&gt;{$MAX_OUTPUTCURRENT_WARNING}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.last()}&gt;{$MAX_OUTPUTCURRENT_WARNING}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Current Output Too High</name>
@@ -1597,7 +1597,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputSourceAvailability.1.last()}&lt;3</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputSourceAvailability.last()}&lt;3</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Lost Input Redundancy</name>
@@ -1613,7 +1613,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.1.1.1.last()}&gt;{$MAX_INPUTVOLTAGE}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.last()}&gt;{$MAX_INPUTVOLTAGE}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Power Voltage Too High</name>
@@ -1629,7 +1629,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.1.1.1.last()}&lt;{$MIN_INPUTVOLTAGE}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.last()}&lt;{$MIN_INPUTVOLTAGE}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Power Voltage Too Low</name>
@@ -1673,7 +1673,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlpAtsInputPhaseFrequency.1.1.2</key>
+                        <key>tlpAtsInputPhaseFrequency</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -1705,7 +1705,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlpAtsInputPhaseVoltage.1.1.1</key>
+                        <key>tlpAtsInputPhaseVoltage</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -1737,7 +1737,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlpAtsOutputCurrent.1.1</key>
+                        <key>tlpAtsOutputCurrent</key>
                     </item>
                 </graph_item>
             </graph_items>
