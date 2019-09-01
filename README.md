@@ -1,5 +1,5 @@
 # Zabbix-Tripp-Lite-PDU-15
-#Supports PDUMH20ATNET - WEBCARDLX family of products
+Supports PDUMH20ATNET - WEBCARDLX family of products
 
 Zabbix template for SNMP monitoring Tripp Lite PDU with 15th firmware
  
