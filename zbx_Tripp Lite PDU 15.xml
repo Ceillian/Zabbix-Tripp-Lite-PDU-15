@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2019-07-11T18:45:54Z</date>
+    <date>2019-09-01T14:05:53Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -47,301 +47,6 @@
                 </application>
             </applications>
             <items>
-                <item>
-                    <name>Agent Software Version</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>.1.3.6.1.2.1.1.1.0</snmp_oid>
-                    <key>PDUIdentAgentSoftwareVersion</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The UPS agent software version.  This variable may or may not have the same value as upsIdentUPSSoftwareVersion in some implementations.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>Manufacturer Identification</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.1.2.1.4.1</snmp_oid>
-                    <key>PDUIdentManufacturer</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The name of the UPS manufacturer.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>Model Identification</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.1.2.1.5.1</snmp_oid>
-                    <key>PDUIdentModel</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The UPS Model designation.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>Device Name</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.1.2.1.6.1</snmp_oid>
-                    <key>PDUIdentName</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>A string identifying the UPS.  This object should be set by the administrator.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>PDU  Software Version</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.2.1.1.4.1</snmp_oid>
-                    <key>PDUIdentUPSSoftwareVersion</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The UPS firmware/software version(s).  This variable may or may not have the same value as upsIdentAgentSoftwareVersion in some implementations.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
                 <item>
                     <name>SNMP traps (fallback)</name>
                     <type>17</type>
@@ -402,11 +107,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>PDU Serial Number</name>
+                    <name>Agent Software Version</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.2.1.1.5.1</snmp_oid>
-                    <key>tlPDUIdentSerialNum</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.2.1.1.2.0</snmp_oid>
+                    <key>tlpAgentVersion.0</key>
                     <delay>86400</delay>
                     <history>{$HISTORY}</history>
                     <trends>0</trends>
@@ -429,7 +134,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>Serial number for the UPS.</description>
+                    <description>The UPS agent software version.  This variable may or may not have the same value as upsIdentUPSSoftwareVersion in some implementations.</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -461,11 +166,77 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>Low Transfer Voltage</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.5.5.1.7.1.1</snmp_oid>
+                    <key>tlpAtsConfigLowVoltageTransfer.1.1</key>
+                    <delay>{$UPDATEINT}</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>{$TRENDS}</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The number of input voltages. Phase to phase or phase to neutral.  This variable indicates the number of rows in the input table.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing>
+                        <step>
+                            <type>1</type>
+                            <params>0.1</params>
+                            <error_handler>0</error_handler>
+                            <error_handler_params/>
+                        </step>
+                    </preprocessing>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
                     <name>Input - Frequency</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.1.2.1.3.1.1</snmp_oid>
-                    <key>tlPDUInputFrequency</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.4.1.1.2</snmp_oid>
+                    <key>tlpAtsInputPhaseFrequency.1.1.2</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -530,133 +301,8 @@
                     <name>Input - Voltage</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.1.2.1.4.1.1</snmp_oid>
-                    <key>tlPDUInputNumVoltages</key>
-                    <delay>{$UPDATEINT}</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>{$TRENDS}</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The number of input voltages. Phase to phase or phase to neutral.  This variable indicates the number of rows in the input table.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing>
-                        <step>
-                            <type>1</type>
-                            <params>0.1</params>
-                            <error_handler>0</error_handler>
-                            <error_handler_params/>
-                        </step>
-                    </preprocessing>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>Device Location</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.1.2.1.8.1</snmp_oid>
-                    <key>tlPDULocation</key>
-                    <delay>86400</delay>
-                    <history>{$HISTORY}</history>
-                    <trends>0</trends>
-                    <status>0</status>
-                    <value_type>1</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The device location string.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>PDU</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <timeout>3s</timeout>
-                    <url/>
-                    <query_fields/>
-                    <posts/>
-                    <status_codes>200</status_codes>
-                    <follow_redirects>1</follow_redirects>
-                    <post_type>0</post_type>
-                    <http_proxy/>
-                    <headers/>
-                    <retrieve_mode>0</retrieve_mode>
-                    <request_method>0</request_method>
-                    <output_format>0</output_format>
-                    <allow_traps>0</allow_traps>
-                    <ssl_cert_file/>
-                    <ssl_key_file/>
-                    <ssl_key_password/>
-                    <verify_peer>0</verify_peer>
-                    <verify_host>0</verify_host>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>Low Transfer Voltage</name>
-                    <type>4</type>
-                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.1.1.1.4.1</snmp_oid>
-                    <key>tlPDULowTransferVoltage</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.5.1.1.1</snmp_oid>
+                    <key>tlpAtsInputPhaseVoltage.1.1.1</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -721,8 +367,8 @@
                     <name>Maximum Input Voltage</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.1.2.1.6.1.1</snmp_oid>
-                    <key>tlPDUMaximumInputVoltage</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.2.1.7.1.1.1</snmp_oid>
+                    <key>tlpAtsInputPhaseVoltageMax.1.1.1</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -784,11 +430,136 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>Input - Source Availability</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.1.1.1.12.1</snmp_oid>
+                    <key>tlpAtsInputSourceAvailability.1</key>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>Reports power input sources for PDU.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Output Current</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.5.1.1</snmp_oid>
+                    <key>tlpAtsOutputCurrent.1.1</key>
+                    <delay>{$UPDATEINT}</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>{$TRENDS}</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>Amps</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing>
+                        <step>
+                            <type>1</type>
+                            <params>0.01</params>
+                            <error_handler>0</error_handler>
+                            <error_handler_params/>
+                        </step>
+                    </preprocessing>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
                     <name>Maximum Output Current</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.2.1.1.7.1.1</snmp_oid>
-                    <key>tlPDUMaximumOutputCurrent</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.7.1.1</snmp_oid>
+                    <key>tlpAtsOutputCurrentMax.1.1</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -853,8 +624,8 @@
                     <name>Minimum Input Voltage</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.1.2.1.5.1.1</snmp_oid>
-                    <key>tlPDUMinimumInputVoltage</key>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.2.1.1.6.1.1</snmp_oid>
+                    <key>tlpAtsOutputCurrentMin.1.1</key>
                     <delay>{$UPDATEINT}</delay>
                     <history>{$HISTORY}</history>
                     <trends>{$TRENDS}</trends>
@@ -916,18 +687,18 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Output Current</name>
+                    <name>PDU  Software Version</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.2.1.1.5.1.1</snmp_oid>
-                    <key>tlPDUOutputCurrent</key>
-                    <delay>{$UPDATEINT}</delay>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.2.1.1.4.1</snmp_oid>
+                    <key>tlpDeviceIdentFirmwareVersion.1</key>
+                    <delay>86400</delay>
                     <history>{$HISTORY}</history>
-                    <trends>{$TRENDS}</trends>
+                    <trends>0</trends>
                     <status>0</status>
-                    <value_type>0</value_type>
+                    <value_type>1</value_type>
                     <allowed_hosts/>
-                    <units>Amps</units>
+                    <units/>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -943,7 +714,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description/>
+                    <description>The UPS firmware/software version(s).  This variable may or may not have the same value as upsIdentAgentSoftwareVersion in some implementations.</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -952,14 +723,302 @@
                     </applications>
                     <valuemap/>
                     <logtimefmt/>
-                    <preprocessing>
-                        <step>
-                            <type>1</type>
-                            <params>0.01</params>
-                            <error_handler>0</error_handler>
-                            <error_handler_params/>
-                        </step>
-                    </preprocessing>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>PDU Serial Number</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.2.1.1.5.1</snmp_oid>
+                    <key>tlpDeviceIdentSerialNum.1</key>
+                    <delay>86400</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>Serial number for the UPS.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Device Location</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.8.1</snmp_oid>
+                    <key>tlpDeviceLocation.1</key>
+                    <delay>86400</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The device location string.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Manufacturer Identification</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.4.1</snmp_oid>
+                    <key>tlpDeviceManufacturer.1</key>
+                    <delay>86400</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The name of the UPS manufacturer.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Model Identification</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.5.1</snmp_oid>
+                    <key>tlpDeviceModel.1</key>
+                    <delay>86400</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The UPS Model designation.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Device Name</name>
+                    <type>4</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.850.1.1.1.2.1.6.1</snmp_oid>
+                    <key>tlpDeviceName.1</key>
+                    <delay>86400</delay>
+                    <history>{$HISTORY}</history>
+                    <trends>0</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>A string identifying the UPS.  This object should be set by the administrator.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PDU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
                     <jmx_endpoint/>
                     <timeout>3s</timeout>
                     <url/>
@@ -987,8 +1046,8 @@
                     <name>Outlets</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>discovery[{#SNMPVALUE},1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.1.1]</snmp_oid>
-                    <key>tlPDUOutletIndex</key>
+                    <snmp_oid>discovery[{#SNMPVALUE},.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.1.1.1]</snmp_oid>
+                    <key>tlpAtsOutletIndex</key>
                     <delay>86400</delay>
                     <status>0</status>
                     <allowed_hosts/>
@@ -1019,8 +1078,8 @@
                             <name>Outlet - Ndx group of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.14.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlPDUOutletGroupNdx[{#SNMPVALUE}]</key>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.14.1.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletGroup[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
                             <trends>{$TRENDS}</trends>
@@ -1076,11 +1135,71 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
+                            <name>Outlet - Name of outlet $1</name>
+                            <type>4</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.2.1.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletName[{#SNMPVALUE}]</key>
+                            <delay>1d</delay>
+                            <history>{$HISTORY}</history>
+                            <trends>0</trends>
+                            <status>0</status>
+                            <value_type>1</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>A string identifying the devices attached to the output(s) of the device.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PDU_OUTLETS_NAME</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
                             <name>Outlet - Ramp action of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.10.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlPDUOutletRampAction[{#SNMPVALUE}]</key>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.10.1.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletRampAction[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
                             <trends>{$TRENDS}</trends>
@@ -1112,6 +1231,130 @@
                             </applications>
                             <valuemap>
                                 <name>UPS Outlet Ramp Action</name>
+                            </valuemap>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Outlet - Shed action of outlet $1</name>
+                            <type>4</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.12.1.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletShedAction[{#SNMPVALUE}]</key>
+                            <delay>1d</delay>
+                            <history>{$HISTORY}</history>
+                            <trends>{$TRENDS}</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>The shed action to take on the Outlet.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PDU_OUTLETS_SHAD_ACTION</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>UPS Outlet Shed Action</name>
+                            </valuemap>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint/>
+                            <timeout>3s</timeout>
+                            <url/>
+                            <query_fields/>
+                            <posts/>
+                            <status_codes>200</status_codes>
+                            <follow_redirects>1</follow_redirects>
+                            <post_type>0</post_type>
+                            <http_proxy/>
+                            <headers/>
+                            <retrieve_mode>0</retrieve_mode>
+                            <request_method>0</request_method>
+                            <output_format>0</output_format>
+                            <allow_traps>0</allow_traps>
+                            <ssl_cert_file/>
+                            <ssl_key_file/>
+                            <ssl_key_password/>
+                            <verify_peer>0</verify_peer>
+                            <verify_host>0</verify_host>
+                            <application_prototypes/>
+                            <master_item/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Outlet - State of outlet $1</name>
+                            <type>4</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.4.1.1.{#SNMPINDEX}</snmp_oid>
+                            <key>tlpAtsOutletState[{#SNMPVALUE}]</key>
+                            <delay>2m</delay>
+                            <history>{$HISTORY}</history>
+                            <trends>{$TRENDS}</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>The current state of the Outlet.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PDU_OUTLETS_STATE</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>UPS Outlet State</name>
                             </valuemap>
                             <logtimefmt/>
                             <preprocessing/>
@@ -1200,68 +1443,6 @@
                             <master_item/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Outlet - Shed action of outlet $1</name>
-                            <type>4</type>
-                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.12.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlPDUOutletShedAction[{#SNMPVALUE}]</key>
-                            <delay>1d</delay>
-                            <history>{$HISTORY}</history>
-                            <trends>{$TRENDS}</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description>The shed action to take on the Outlet.</description>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>PDU_OUTLETS_SHAD_ACTION</name>
-                                </application>
-                            </applications>
-                            <valuemap>
-                                <name>UPS Outlet Shed Action</name>
-                            </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
                             <name>Outlet - Shed action data type of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
@@ -1298,128 +1479,6 @@
                             </applications>
                             <valuemap>
                                 <name>UPS Outlet Shed Data Type</name>
-                            </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Outlet - Name of outlet $1</name>
-                            <type>4</type>
-                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.3.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlUpsOutletName[{#SNMPVALUE}]</key>
-                            <delay>1d</delay>
-                            <history>{$HISTORY}</history>
-                            <trends>0</trends>
-                            <status>0</status>
-                            <value_type>1</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description>A string identifying the devices attached to the output(s) of the device.</description>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>PDU_OUTLETS_NAME</name>
-                                </application>
-                            </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <timeout>3s</timeout>
-                            <url/>
-                            <query_fields/>
-                            <posts/>
-                            <status_codes>200</status_codes>
-                            <follow_redirects>1</follow_redirects>
-                            <post_type>0</post_type>
-                            <http_proxy/>
-                            <headers/>
-                            <retrieve_mode>0</retrieve_mode>
-                            <request_method>0</request_method>
-                            <output_format>0</output_format>
-                            <allow_traps>0</allow_traps>
-                            <ssl_cert_file/>
-                            <ssl_key_file/>
-                            <ssl_key_password/>
-                            <verify_peer>0</verify_peer>
-                            <verify_host>0</verify_host>
-                            <application_prototypes/>
-                            <master_item/>
-                        </item_prototype>
-                        <item_prototype>
-                            <name>Outlet - State of outlet $1</name>
-                            <type>4</type>
-                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.4.1.{#SNMPINDEX}</snmp_oid>
-                            <key>tlUpsOutletState[{#SNMPVALUE}]</key>
-                            <delay>2m</delay>
-                            <history>{$HISTORY}</history>
-                            <trends>{$TRENDS}</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description>The current state of the Outlet.</description>
-                            <inventory_link>0</inventory_link>
-                            <applications>
-                                <application>
-                                    <name>PDU_OUTLETS_STATE</name>
-                                </application>
-                            </applications>
-                            <valuemap>
-                                <name>UPS Outlet State</name>
                             </valuemap>
                             <logtimefmt/>
                             <preprocessing/>
@@ -1497,7 +1556,7 @@
             </macros>
             <templates>
                 <template>
-                    <name>Template ICMP Ping</name>
+                    <name>Template Module ICMP Ping</name>
                 </template>
             </templates>
             <screens/>
@@ -1506,7 +1565,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlPDUOutputCurrent.last()}&gt;{$MAX_OUTPUTCURRENT_CRITICAL}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.1.1.last()}&gt;{$MAX_OUTPUTCURRENT_CRITICAL}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Current Output Reaching Limit</name>
@@ -1522,7 +1581,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlPDUOutputCurrent.last()}&gt;{$MAX_OUTPUTCURRENT_WARNING}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsOutputCurrent.1.1.last()}&gt;{$MAX_OUTPUTCURRENT_WARNING}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Current Output Too High</name>
@@ -1538,7 +1597,23 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlPDUInputNumVoltages.last()}&gt;{$MAX_INPUTVOLTAGE}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputSourceAvailability.1.last()}&lt;3</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>PDU Lost Input Redundancy</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>PDU has lost power redundancy. An input has failed.</description>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.1.1.1.last()}&gt;{$MAX_INPUTVOLTAGE}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Power Voltage Too High</name>
@@ -1554,7 +1629,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template SNMP Tripp Lite PDU 15:tlPDUInputNumVoltages.last()}&lt;{$MIN_INPUTVOLTAGE}</expression>
+            <expression>{Template SNMP Tripp Lite PDU 15:tlpAtsInputPhaseVoltage.1.1.1.last()}&lt;{$MIN_INPUTVOLTAGE}</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>PDU Power Voltage Too Low</name>
@@ -1598,7 +1673,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlPDUInputFrequency</key>
+                        <key>tlpAtsInputPhaseFrequency.1.1.2</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -1630,7 +1705,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlPDUInputNumVoltages</key>
+                        <key>tlpAtsInputPhaseVoltage.1.1.1</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -1662,7 +1737,7 @@
                     <type>0</type>
                     <item>
                         <host>Template SNMP Tripp Lite PDU 15</host>
-                        <key>tlPDUOutputCurrent</key>
+                        <key>tlpAtsOutputCurrent.1.1</key>
                     </item>
                 </graph_item>
             </graph_items>
