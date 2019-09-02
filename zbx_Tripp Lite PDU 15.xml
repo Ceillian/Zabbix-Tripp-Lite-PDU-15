@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2019-09-01T14:29:40Z</date>
+    <date>2019-09-02T06:33:22Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -1046,7 +1046,7 @@
                     <name>Outlets</name>
                     <type>4</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                    <snmp_oid>discovery[{#SNMPVALUE},.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.1.1.1]</snmp_oid>
+                    <snmp_oid>discovery[{#SNMPVALUE},TRIPPLITE-PRODUCTS::tlpAtsOutletIndex]</snmp_oid>
                     <key>tlpAtsOutletIndex</key>
                     <delay>86400</delay>
                     <status>0</status>
@@ -1078,7 +1078,7 @@
                             <name>Outlet - Ramp data type of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.11.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.11.{#SNMPINDEX}</snmp_oid>
                             <key>tlAtsOutletRampDataType[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1140,7 +1140,7 @@
                             <name>Outlet - Ndx group of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.14.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.14.1.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletGroup[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1200,7 +1200,7 @@
                             <name>Outlet - Name of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.2.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.2.1.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletName[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1260,7 +1260,7 @@
                             <name>Outlet - Ramp action of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.10.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.10.1.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletRampAction[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1322,7 +1322,7 @@
                             <name>Outlet - Shed action of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.12.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.12.1.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletShedAction[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1384,7 +1384,7 @@
                             <name>Outlet - Shed action data type of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.13.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>1.3.6.1.4.1.850.1.1.3.2.3.3.1.1.13.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletShedDataType[{#SNMPVALUE}]</key>
                             <delay>1d</delay>
                             <history>{$HISTORY}</history>
@@ -1446,7 +1446,7 @@
                             <name>Outlet - State of outlet $1</name>
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
-                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.4.1.1.{#SNMPINDEX}</snmp_oid>
+                            <snmp_oid>.1.3.6.1.4.1.850.1.1.3.4.3.3.1.1.4.1.{#SNMPINDEX}</snmp_oid>
                             <key>tlpAtsOutletState[{#SNMPVALUE}]</key>
                             <delay>2m</delay>
                             <history>{$HISTORY}</history>
