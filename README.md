@@ -1,11 +1,11 @@
 # Zabbix-Tripp-Lite-PDU-15
 Supports PDUMH20ATNET - WEBCARDLX family of products
 
-Zabbix template for SNMP monitoring Tripp Lite PDU with 15th firmware
+Zabbix template for SNMP monitoring Tripp Lite PDU.
  
-Has been created in Zabbix 4.0, but exported from Zabbix 4.2
+Install the MIBS for TRIPPLITE on Zabbix box (/usr/share/snmp/mibs)
 
-Needs to set up macroses: 
+Needs to set up macros: 
 {$HISTORY} 
 {$TRENDS} 
 {$UPDATEINT}
